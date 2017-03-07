@@ -1,0 +1,36 @@
+.container {
+  width: 90%;
+}
+
+table {
+  background-color: white;
+}
+
+tbody td:first-of-type {
+  background-color: #eeeeee;
+}
+
+thead {
+  background-color: #646464;
+  color: white;
+  border: white;
+  font-weight: bold;
+}
+
+td {
+  padding: 1em;
+}
+
+.table-hover thead tr:hover th,
+.table-hover tbody tr:hover td {
+  background-color: #f6ef96;
+}
+
+.flex-container {
+  /*  display: flex;
+  flex-flow: row;*/
+}
+
+.flex-item {
+  padding: 20px;
+}

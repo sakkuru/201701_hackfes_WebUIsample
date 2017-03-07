@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="js">
+
+<head>
+  <meta charset="UTF-8">
+  <title>コントロール画面</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <div class='container'>
+    <h1>コントロールパネル</h1>
+    <p>ここからいろいろコントロールできるよ。</p>
+
+    <div class='flex-container'>
+      <div class='flex-item'>
+        <h2>キューリスト</h2>
+        <table id="queueList" border="1" class='table-hover'>
+          <thead>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class='flex-item'>
+        <h2>選択リスト</h2>
+        <table id="chooseList" border="1" class='table-hover'>
+          <thead id="caption">
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
